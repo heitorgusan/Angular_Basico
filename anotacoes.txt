@@ -1,0 +1,11 @@
+[ngModel] = "Variavel"  -> Captura o valor da propriedade mas não faz alteração -> Property binding;
+[(ngModel)] = "Variavel"  -> Captura o valor da propriedade e faz a alteração -> Two-way data binding
+(ngModel) = "function()" -> Chama a função -> Event binding
+
+
+Com ele é possível realizar a comunicação de um componente com o DOM da aplicação, tê-lo como 
+aliado facilitará muito a vida de uma pessoa que desenvolve com o Angular.
+
+Eventos:
+
+@Output() para criar um evento para o seu componente.
